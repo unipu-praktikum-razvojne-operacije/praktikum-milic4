@@ -1,0 +1,19 @@
+== System ==
+OK    Darwin 25.6.0
+== Git ==
+OK    git version 2.49.0
+OK    user.name = Martina Ilić
+OK    user.email = milic1@unipu.hr
+== GitHub CLI ==
+OK    gh version 2.102.0 (2026-09-30)
+OK    logged in as milic4
+== Python ==
+OK    Python 3.12
+OK    active venv: /Users/martinailic/praktikum-milic4/.venv
+OK    requirements.txt exists
+== Repository ==
+OK    git repository: https://github.com/unipu-praktikum-razvojne-operacije/praktikum-milic4.git
+OK    .venv/ is in .gitignore
+OK    .env is in .gitignore
+
+Result: 12 OK, 0 FAILED
