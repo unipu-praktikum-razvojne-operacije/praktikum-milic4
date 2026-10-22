@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.1.1, pluggy-1.7.0 -- /Users/martinailic/praktikum-milic4/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/martinailic/praktikum-milic4
+collecting ... collected 5 items
+
+tests/test_ollama_client.py::test_build_messages_puts_system_prompt_first PASSED [ 20%]
+tests/test_ollama_client.py::test_list_models_returns_model_names PASSED [ 40%]
+tests/test_ollama_client.py::test_generate_sends_model_and_prompt_without_streaming PASSED [ 60%]
+tests/test_ollama_client.py::test_chat_returns_assistant_message_content PASSED [ 80%]
+tests/test_ollama_client.py::test_generate_raises_ollama_error_when_server_is_down PASSED [100%]
+
+============================== 5 passed in 0.12s ===============================
